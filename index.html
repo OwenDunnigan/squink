@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squink</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /* Change image on hover */
+        #squink-img:hover {
+            content: url('squink1.jpg');
+        }
+    </style>
+</head>
+<body>
+    <img src="squink.jpg" alt="Squink Image" id="squink-img"
+        onpointerdown="this.src='squink1.jpg';"
+        onpointerup="this.src='squink.jpg';"
+        onpointerleave="this.src='squink.jpg';">
+</body>
+</html>
